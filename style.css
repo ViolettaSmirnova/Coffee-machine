@@ -1,0 +1,12 @@
+.coffee-list {
+   background-image: url("img/background.jpg");
+   background-size: cover;
+   color: white;
+   font-size: 19;
+}
+.coffee-item img {
+  height: 100px;
+}
+body {
+  background-color: #FFE4B5;
+}
