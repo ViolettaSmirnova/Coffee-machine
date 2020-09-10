@@ -59,9 +59,11 @@ body {
 }
 .cup {
   width: 100%;
+  display: none;
 }
 .atm {
   width: 100%;
+
 }
 .change-container {
   min-height: 5rem;

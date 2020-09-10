@@ -1,4 +1,4 @@
- Formatted HTML:
+
 <!doctype html>
 <html lang="en">
    <head>
@@ -14,19 +14,19 @@
       <div class="container">
          <div class = "row">
             <div class="col-6 coffee-list d-flex flex-column justify-content-around">
-               <div class="coffee-item">
+               <div class="coffee-item" onclick = "makeCoffee('Американо', 55)">
                   <img src="img/americano.png" alt="Американо">
                   <span>Американо - 55руб.</span>
                </div>
-               <div class="coffee-item">
+               <div class="coffee-item" onclick = "makeCoffee('Капучино', 85)">
                   <img src="img/cappuccino.png" alt="Капуччино">
                   <span>Капучино - 85руб.</span>
                </div>
-               <div class="coffee-item">
+               <div class="coffee-item" onclick = "makeCoffee('Эспрессо', 65)">
                   <img src="img/espresso.png" alt="Эспрессо">
                   <span>Эспрессо - 65руб.</span>
                </div>
-               <div class="coffee-item">
+               <div class="coffee-item" onclick = "makeCoffee('Латте', 110)">
                   <img src="img/latte.jpg" alt="Латте">
                   <span>Латте - 110руб.</span>
                </div>
@@ -65,6 +65,7 @@
       </div>
       </div>
       <!-- Optional JavaScript -->
+      <script src = "script.js"></script>
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
