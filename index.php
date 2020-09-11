@@ -14,19 +14,19 @@
       <div class="container">
          <div class = "row">
             <div class="col-6 coffee-list d-flex flex-column justify-content-around">
-               <div class="coffee-item" onclick = "makeCoffee('Американо', 55)">
+               <div class="coffee-item" onclick = "makeCoffee('Американо', 55, this)">
                   <img src="img/americano.png" alt="Американо">
                   <span>Американо - 55руб.</span>
                </div>
-               <div class="coffee-item" onclick = "makeCoffee('Капучино', 85)">
+               <div class="coffee-item" onclick = "makeCoffee('Капучино', 85, this)">
                   <img src="img/cappuccino.png" alt="Капуччино">
                   <span>Капучино - 85руб.</span>
                </div>
-               <div class="coffee-item" onclick = "makeCoffee('Эспрессо', 65)">
+               <div class="coffee-item" onclick = "makeCoffee('Эспрессо', 65, this)">
                   <img src="img/espresso.png" alt="Эспрессо">
                   <span>Эспрессо - 65руб.</span>
                </div>
-               <div class="coffee-item" onclick = "makeCoffee('Латте', 110)">
+               <div class="coffee-item" onclick = "makeCoffee('Латте', 110, this)">
                   <img src="img/latte.jpg" alt="Латте">
                   <span>Латте - 110руб.</span>
                </div>
@@ -37,7 +37,7 @@
                      <div class="display">
                         <p class="display-text">Выберите кофе</p>
                         <div class="progress">
-                           <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                           <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" style="width: 0%; transition: none"></div>
                         </div>
                      </div>
                      <div class="cup-container">
@@ -65,6 +65,7 @@
       </div>
       </div>
       <!-- Optional JavaScript -->
+      <!--<script src = "lesson.js"></script>-->
       <script src = "script.js"></script>
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

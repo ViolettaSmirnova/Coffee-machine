@@ -52,6 +52,7 @@ body {
   box-sizing: border-box;
   padding: 0.5rem;
   font-family:'Roboto Slab', serif;
+  text-align: center;
 }
 .cup-container {
   margin-top: 2rem;
@@ -60,6 +61,7 @@ body {
 .cup {
   width: 100%;
   display: none;
+  opacity: 0;
 }
 .atm {
   width: 100%;
