@@ -54,7 +54,7 @@
                      <div class="atm-container">
                        <img src="img/bill_acc.png" alt class="atm">
                      </div>
-                     <button class="btn btn-success btn-block my-2">Сдача</button>
+                     <button class="btn btn-success btn-block my-2 change-button">Сдача</button>
                      <div class="change-container">
                        
                      </div>
@@ -63,6 +63,11 @@
             </div>
          </div>
       </div>
+      </div>
+      <div class="money">
+        <img src="img/50rub.jpg" alt="50rub" data-cost = "50">
+        <img src="img/100rub.jpg" alt="100rub" data-cost = "100">
+        <img src="img/500rub.jpg" alt="500rub" data-cost = "500">
       </div>
       <!-- Optional JavaScript -->
       <!--<script src = "lesson.js"></script>-->
